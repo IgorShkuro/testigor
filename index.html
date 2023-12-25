@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navigation">
+            <a class="navigation-logo" href="#">
+                <img class="navigation-logo__image" src="/images/logo.png" alt="logo">
+            </a>
+
+            <!-- Burger menu -->
+
+            <div class="burger-menu" id="burger">
+                <span class="burger-menu__line"></span>
+                <span class="burger-menu__line"></span>
+                <span class="burger-menu__line"></span>
+            </div>
+            <div class="menu-open" id="menu">
+                <ul class="menu-list">
+                    <li class="menu-list__text"><a href="#">defense solutions</a></li>
+                    <li class="menu-list__text"><a href="#">secured transportation</a></li>
+                    <li class="menu-list__text"><a href="#">upfitting solutions</a></li>
+                    <li class="menu-list__text"><a href="#">fleet management</a></li>
+                    <li class="menu-list__text"><a href="#">electric vehicles</a></li>
+                </ul>
+                <div class="btn-container">
+                    <a class="btn-client" href="#">
+                        <img class="user-white" src="/images/user-white.svg" alt="user">
+                        <img class="user-black" src="/images/user-black.svg" alt="user">
+                        <p class="btn-client__text">client portal</p>
+                    </a>
+                    <a class="lang-block" href="#">
+                        <img class="world-image" src="/images/world.svg" alt="world">
+                        <p class="lang-text">en</p>
+                    </a>
+
+                    <!-- Modal language window -->
+
+                    <div id="lang-modal" class="modal">
+                        <p class="modal-text" data-lang="en">English</p>
+                        <p class="modal-text" data-lang="es">Español</p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main information -->
+
+    <main class="main">
+
+        <!-- First section -->
+
+        <div class="background">
+            <section class="intro-first">
+                <article class="intro-first__section">
+                    <h1 class="title-first__section">leading armored vehicles</h1>
+                    <h3 class="description-first___section">latest generation armored vehicles in production</h3>
+                    <a class="intro-section__btn" href="#">
+                        <h3 class="btn-text">learn more</h3>
+                        <img class="btn-arrow" src="/images/right-svgrepo.svg" alt="">
+                    </a>
+                </article>
+            </section>
+        </div>
+
+        <!-- Second section -->
+
+        <div class="background-second">
+            <section class="intro-second">
+                <article class="intro-second__section  placeholder"></article>
+                <article class="intro-second__section">
+                    <h1 class="title-second__section">refined luxury</h1>
+                    <h3 class="description-second__section">the all new bentyaga</h3>
+                    <a class="intro-section__btn" href="#">
+                        <h3 class="btn-text">learn more</h3>
+                        <img class="btn-arrow" src="/images/right-svgrepo.svg" alt="">
+                    </a>
+                </article>
+            </section>
+        </div>
+
+        <!-- Third section  -->
+
+        <div class="background-third">
+            <section class="intro-third">
+                <article class="intro-third__section text-place">
+                    <div class="text-block">
+                        <h6 class="text-block__desc">mission-proven & globally leading</h6>
+                    </div>
+                    <h1 class="title-third__section">armored cars & bulletproof vehicles</h1>
+                    <p class="description-third__section">INKAS® Armored Vehicle Manufacturing is a leading Canadian-based company that specializes in the design and production of a wide range of armored vehicles, including executive SUVs, bulletproof luxury sedans, special purpose vehicles, personnel carriers, cash-in-transit vehicles, and others. Since 2000, INKAS® Armored Vehicle Manufacturing has been providing armored vehicles for banks, law enforcement agencies, corporate clients and individuals all over the world. Company’s worldwide sales offices and after-sale workshops are located all over the world. 
+                    <br>
+                    <br>
+                    To address the threats our customers face all over the world, INKAS® Armored Vehicle Manufacturing implements the best practices in technological innovation, design and quality management. Our armored vehicles ensure your security and protection.</p>
+                </article>
+                <article class="intro-third__section video-block">
+                    <iframe class="video" src="https://www.youtube.com/watch?v=GF2x_j9n9to&t=2s" frameborder="0" allowfullscreen></iframe>
+                </article>
+            </section>
+        </div>
+
+        <!-- Fourth section -->
+
+        <div class="background-fourth">
+            <section class="slider-section">
+                <div id="splide" class="splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <img src="/images/slider1.jpg" alt="Slide 1">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="/images/slider2.jpg" alt="Slide 2">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="/images/slider3.jpg" alt="Slide 3">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Fifth section -->
+
+        <div class="background-fifth">
+            <section class="intro-fifth">
+                <h1 class="intro-fifth__title">where luxury meets security</h1>
+                <h3 class="intro-fifth__description">unique vehicle armoring solutions</h3>
+                <div class="intro-fifth__container">
+                    <div class="intro-fifth__content">
+                        <img class="intro-fifth__image" src="/images/high-quality-performance.png" alt="high quality performance">
+                        <h3 class="content-title">wide range armored vehicles</h3>
+                        <p class="content-description">INKAS® Armored manufactures a wide range of armored vehicles and bulletproof cars, including armored SUVs, luxury cars and limousines, tactical vehicles, cash-in-transit vehicles, armored buses and trucks. INKAS® also produces armored special purpose vehicles for its commercial and institutional clients on a global scale.</p>
+                        <a class="content-btn" href="#">
+                            <span class="content-btn__text">view inventory</span>
+                        </a>
+                    </div>
+                    <div class="intro-fifth__content">
+                        <img class="intro-fifth__image" src="/images/unique-features-and-performance.png" alt="high quality performance">
+                        <h3 class="content-title">wide range armored vehicles</h3>
+                        <p class="content-description">INKAS® Armored manufactures a wide range of armored vehicles and bulletproof cars, including armored SUVs, luxury cars and limousines, tactical vehicles, cash-in-transit vehicles, armored buses and trucks. INKAS® also produces armored special purpose vehicles for its commercial and institutional clients on a global scale.</p>
+                        <a class="content-btn" href="#">
+                            <span class="content-btn__text">view inventory</span>
+                        </a>
+                    </div>
+                    <div class="intro-fifth__content">
+                        <img class="intro-fifth__image" src="/images/wide-range-of-armored-vehicles.jpg" alt="high quality performance">
+                        <h3 class="content-title">wide range armored vehicles</h3>
+                        <p class="content-description">INKAS® Armored manufactures a wide range of armored vehicles and bulletproof cars, including armored SUVs, luxury cars and limousines, tactical vehicles, cash-in-transit vehicles, armored buses and trucks. INKAS® also produces armored special purpose vehicles for its commercial and institutional clients on a global scale.</p>
+                        <a class="content-btn" href="#">
+                            <span class="content-btn__text">view inventory</span>
+                        </a>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <section class="intro-footer">
+            <a class="navigation-logo" href="#">
+                <img class="navigation-logo__image" src="/images/logo.png" alt="logo">
+            </a>
+        </section>
+    </footer>
+    <script src="/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/js/splide.min.js"></script>
+</body>
+</html>
